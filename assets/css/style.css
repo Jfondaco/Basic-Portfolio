@@ -1,0 +1,263 @@
+/*Need to make Menu-Tabs fixed boxes */
+
+/* Make my Name here in a fixed position */
+.my-name {
+    background: lightblue;
+    width: 200px;
+    height: 100px;
+    position: fixed;
+    left: 15%;
+    color: white;
+    
+}
+
+.my-name p{
+    position: absolute;
+    margin: 0;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.menutabs{
+    background: white;
+    height:100px;
+    width:100%;
+    position: fixed;
+    margin-left: 0;
+    margin-right: 0;
+    left: 0;
+    right:0;
+    top: 0;
+    z-index: 100;
+    font-size: 20px;
+}
+
+.clearfix::after{
+    content:"";
+    display: block;
+    clear: both; 
+}
+
+.index{
+    float: right;
+    position:fixed;
+    color: gray;
+    text-align: center;
+    vertical-align: middle;
+    top: 30px;
+    left:70%;
+}
+
+.portfolio{
+    float: right;
+    position: fixed;
+    color: gray;
+    text-align: center;
+    top: 30px;
+    left:75%;
+
+}
+
+.contact{
+    float:right;
+    position: fixed;
+    color: gray;
+    text-align: center;
+    top:30px;
+    left:81.5%;
+    
+}
+
+a:hover{
+    color:purple;
+}
+
+body{
+    background-image:url("../images/abstract1.jpg");
+    height: 100%; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0;
+    padding:0;
+}
+
+.aboutme{
+    position: absolute;
+    top:150px;
+    width:70%;
+    left: 15%;
+    background: white;
+    height:500px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.aboutme h1{
+    font-size: 50px;
+    color: lightblue;
+    padding-bottom: 20px;
+    border-bottom: 2px solid gray;    
+}
+
+.aboutme img{
+    top: 75px;
+    width:200px;
+    height:200px;
+    float: left;
+    border:2px;
+    border: solid white;
+    padding-right: 20px;
+    margin-top:0;
+    
+}
+
+.portfolio-body{
+    position: absolute;
+    top: 125px;
+    width: 35%;
+    left: 32.5%;
+    height: 525px;
+    background: white;
+    padding: 20px;
+    padding-top:0px;
+}
+
+#img1{
+    position: absolute;
+    top: 37%;
+    left: 65%;
+}
+
+#img2{
+    position: absolute;
+    top: 68%;
+    left: 65%;
+}
+
+#img3{
+    position: absolute;
+    top: 37%;
+    left: 5%;
+}
+
+#img4{
+    position: absolute;
+    top: 37%;
+    left: 35%;
+}
+
+#img5{
+    position: absolute;
+    top: 68%;
+    left: 5%;
+}
+
+#img6{
+    position: absolute;
+    top: 68%;
+    left: 35%;
+}
+
+#img1 p{
+    position: absolute;
+    width: 150px;
+    height: 35px;
+    background: lightblue;
+    color: white;
+    z-index: 100;
+    top: 50%;
+    text-align: center;
+} 
+
+#img2 p{
+    position: absolute;
+    width: 150px;
+    height: 35px;
+    background: lightblue;
+    color: white;
+    z-index: 100;
+    top: 50%;
+    text-align: center;
+}
+
+#img3 p{
+    position: absolute;
+    width: 150px;
+    height: 35px;
+    background: lightblue;
+    color: white;
+    z-index: 100;
+    top: 50%;
+    text-align: center;
+}
+
+#img4 p{
+    position: absolute;
+    width: 150px;
+    height: 35px;
+    background: lightblue;
+    color: white;
+    z-index: 100;
+    top: 50%;
+    text-align: center;
+}
+
+#img5 p{
+    position: absolute;
+    width: 150px;
+    height: 35px;
+    background: lightblue;
+    color: white;
+    z-index: 100;
+    top: 50%;
+    text-align: center;
+}
+
+#img6 p{
+    position: absolute;
+    width: 150px;
+    height: 35px;
+    background: lightblue;
+    color: white;
+    z-index: 100;
+    top: 50%;
+    text-align: center;
+}
+
+#my-portfolio{
+    position: absolute;
+    
+    left: 8%;
+    top: 12%;
+}
+
+.contact-body{
+    position: absolute;
+    height: 500px;
+    width: 35%;
+    top: 150px;
+    left:35%;
+    background: white;
+}
+
+footer{
+    position: absolute;
+    width:100%;
+    height:50px;
+    background: gray;
+    z-index: 100;    
+    bottom: 0;
+    margin: 0.01px;
+    padding: 0.01px;   
+}
+
+footer p{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+}
