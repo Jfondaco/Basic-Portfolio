@@ -97,6 +97,11 @@ body{
     padding-left: 20px;
 }
 
+.aboutme p{
+    position: relative;
+    width:95%;
+}
+
 h1{
     position: relative;
     width: 95%;
