@@ -97,10 +97,12 @@ body{
     padding-left: 20px;
 }
 
-.aboutme h1{
+h1{
+    position: relative;
+    width: 95%;
     font-size: 50px;
     color: lightblue;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     border-bottom: 2px solid gray;    
 }
 
@@ -238,11 +240,57 @@ body{
 
 .contact-body{
     position: absolute;
-    height: 500px;
+    height: 525px;
     width: 35%;
     top: 150px;
     left:35%;
     background: white;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.name{
+    position: relative;
+    left:3%;
+    
+}
+
+#name{
+    position: relative;
+    width: 87%;
+}
+
+.email{
+    position: relative;
+    left:3%;
+}
+
+#email{
+    position: relative;
+    width: 87%;
+}
+
+.message{
+    position:relative;
+    left: 3%;
+}
+input[type=text]:focus {
+    background-color: lightblue;
+}
+
+textarea:focus{
+    background-color: lightblue;
+}
+input {
+    margin: 15px;
+}
+
+textarea{
+    width:87%;
+    height: 150px;
+    margin: 15px;
+    padding-bottom:0;
+    margin-bottom:0;
 }
 
 footer{

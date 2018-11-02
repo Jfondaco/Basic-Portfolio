@@ -39,18 +39,36 @@
 <body> 
 
         <div class="contact-body">
+
+                <h1>Contact</h1>
+
                 <form action="action_page.php">
               
-                  <label for="fname">Name</label>
+                  <label class="name">Name</label>
+
+                <br>
+
                   <input type="text" id="name" name="name" placeholder="Your name..">
-              
-                  <label for="lname">E-Mail</label>
-                  <input type="text" id="email" name="lastname" placeholder="Your subject..">
-                            
-                  <label for="message">Message</label>
-                  <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
-              
-                  <input type="submit" value="Submit">
+
+                <br>
+
+                  <label class="email">E-Mail</label>
+
+                <br>
+
+                  <input type="text" id="email" name="email" placeholder="Your E-Mail..">
+
+                <br>            
+
+                  <label class="message">Message</label>
+
+                <br>
+
+                  <textarea id="message" name="message" placeholder="Write something.."></textarea>
+
+                <br>
+
+                  <input type="submit" class = "submit" value="Submit">
               
                 </form>
               </div>
